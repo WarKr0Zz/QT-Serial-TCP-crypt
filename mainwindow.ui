@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>851</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="page_1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>210</y>
+        <width>241</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TCP</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>210</y>
+        <width>241</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RS232</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BExplication">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>70</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Explication / Demo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_pix2">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>370</y>
+        <width>241</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>370</y>
+        <width>241</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_pic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>851</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Easter Eggs</string>
+      </property>
+     </widget>
+     <zorder>label_pic</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>pushButton_2</zorder>
+     <zorder>BExplication</zorder>
+     <zorder>label_11</zorder>
+     <zorder>label_pix2</zorder>
+     <zorder>pushButton_10</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>220</y>
+        <width>171</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cesar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>50</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RETOUR</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>220</y>
+        <width>171</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vigenere</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>14</x>
+        <y>-5</y>
+        <width>841</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>pushButton_5</zorder>
+     <zorder>pushButton_6</zorder>
+     <zorder>pushButton_7</zorder>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLineEdit" name="ENumPort">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>120</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BConnect">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>70</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Connexion</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EIpServeur">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>120</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EEnvoiServeur">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>270</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BCryptVigenere">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>300</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vigenere</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BCryptCesar">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>300</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cesar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BEnvoyer">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>330</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Envoyer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Clecesar">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>260</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ECleVigenere">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>390</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ECryptage">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>280</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>490</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EReception">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>500</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BReception">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>560</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Recevoir</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>560</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RETOUR</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BDecryptVigenere">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>530</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vigenere</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BDecryptCesar">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>530</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cesar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>851</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_10</zorder>
+     <zorder>ENumPort</zorder>
+     <zorder>BConnect</zorder>
+     <zorder>EIpServeur</zorder>
+     <zorder>EEnvoiServeur</zorder>
+     <zorder>BCryptVigenere</zorder>
+     <zorder>BCryptCesar</zorder>
+     <zorder>BEnvoyer</zorder>
+     <zorder>Clecesar</zorder>
+     <zorder>ECleVigenere</zorder>
+     <zorder>ECryptage</zorder>
+     <zorder>lineEdit_2</zorder>
+     <zorder>EReception</zorder>
+     <zorder>BReception</zorder>
+     <zorder>pushButton_3</zorder>
+     <zorder>BDecryptVigenere</zorder>
+     <zorder>BDecryptCesar</zorder>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>350</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Demo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>430</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>text a chiffrer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>430</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Text chiffrer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BRetour3">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>70</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RETOUR</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>430</y>
+        <width>42</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>4</x>
+        <y>-5</y>
+        <width>851</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>430</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Par exemple si vous voulez </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>430</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>avec un décalage de </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>430</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>cela va donner </string>
+      </property>
+     </widget>
+     <zorder>label_3</zorder>
+     <zorder>pushButton_8</zorder>
+     <zorder>lineEdit_3</zorder>
+     <zorder>lineEdit_4</zorder>
+     <zorder>BRetour3</zorder>
+     <zorder>spinBox</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_7</zorder>
+     <zorder>label_8</zorder>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="BConnectSerie">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>80</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Connexion</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BEnvoi">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>340</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Envoyer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EEnvoi">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>280</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>540</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RETOUR</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>490</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BReception2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>550</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>REcevoir</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ECryptageserie">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>290</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EDecrypte">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>490</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BCesarChiffrage">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>310</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cesar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BVigenerechiffrage">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>310</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vigenere</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BCesarDechiffre">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>520</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cesar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BVigenereDechiffre">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>520</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vigenere</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EKeyCesar">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>270</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EKeyVigenere">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>400</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labeltest">
+      <property name="geometry">
+       <rect>
+        <x>-4</x>
+        <y>3</y>
+        <width>861</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>labeltest</zorder>
+     <zorder>BConnectSerie</zorder>
+     <zorder>BEnvoi</zorder>
+     <zorder>EEnvoi</zorder>
+     <zorder>pushButton_4</zorder>
+     <zorder>lineEdit</zorder>
+     <zorder>BReception2</zorder>
+     <zorder>ECryptageserie</zorder>
+     <zorder>EDecrypte</zorder>
+     <zorder>BCesarChiffrage</zorder>
+     <zorder>BVigenerechiffrage</zorder>
+     <zorder>BCesarDechiffre</zorder>
+     <zorder>BVigenereDechiffre</zorder>
+     <zorder>EKeyCesar</zorder>
+     <zorder>EKeyVigenere</zorder>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>60</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RETOUR</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ETestpaschiffrer">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>400</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>text a chiffrer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Etestchiffrer">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>400</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Text chiffrer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Etestcle">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>400</y>
+        <width>113</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Clé</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BDemo2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>500</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>DEMO</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>4</x>
+        <y>-5</y>
+        <width>851</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Si on veut chiffrer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>400</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>avec la clé</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>400</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>cela donne</string>
+      </property>
+     </widget>
+     <zorder>label_4</zorder>
+     <zorder>pushButton_9</zorder>
+     <zorder>ETestpaschiffrer</zorder>
+     <zorder>Etestchiffrer</zorder>
+     <zorder>Etestcle</zorder>
+     <zorder>BDemo2</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_12</zorder>
+     <zorder>label_13</zorder>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QCommandLinkButton" name="commandLinkButton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>240</y>
+        <width>187</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cliquez pour voir</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>210</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Seulement si tu es en TCP</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>4</x>
+        <y>5</y>
+        <width>861</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_5</zorder>
+     <zorder>commandLinkButton</zorder>
+     <zorder>label</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>866</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
